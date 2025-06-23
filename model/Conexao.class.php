@@ -4,7 +4,7 @@ class Conexao{
         private $host = 'localhost';
         private $db = 'db_clients';
         private $user = 'root';
-        private $psw = '';
+        private $psw = "";
         private $link = null;
     #endregion
 
