@@ -63,3 +63,5 @@ id_vendedor int not null,
 foreign key (id_produto) references tb_produtos(id_produto),
 foreign key (id_vendedor) references tb_vendedor(id_vendedor)
 );
+
+insert into db_clients.tb_privilegio values (null,'Bronze'),(null,'Prata'),(null,'Ouro');
